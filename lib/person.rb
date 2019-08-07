@@ -7,11 +7,11 @@ class Person
     @name
   end
   
-  def jobs=(jobs)
-    @jobs = jobs
+  def job=(jobs)
+    @job = jobs
   end
   
-  def jobs
-    @jobs
+  def job
+    @job
   end
 end
